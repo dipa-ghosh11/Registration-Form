@@ -10,7 +10,7 @@
 .input-group select:valid~label {
   top: 0;
   font-size: 0.95rem;
-  color: #007aff;
+  /* color: ; */
   transition: all 0.2s ease-in-out;
 }
 

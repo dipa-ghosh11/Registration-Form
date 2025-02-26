@@ -3,7 +3,7 @@ import Form from "./components/registrationForm.jsx";
 
 function App() {
   return (
-    <div className="h-screen w-screen bg-[url('../public/bg.avif')] bg-cover flex items-center justify-center">
+    <div className="h-screen w-screen bg-cover flex items-center justify-center bg-[#222222]">
       <Form />
     </div>
   );

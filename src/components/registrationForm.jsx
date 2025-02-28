@@ -27,9 +27,8 @@ const Form = () => {
             setTimeout(() => {
                 setShow(false);
                 console.log(JSON.stringify(values));
-                clearStorage();
                 toast.success("Form submitted successfully");
-                action.resetForm();
+                
             }, 3000);
             setShow(true);
         },
